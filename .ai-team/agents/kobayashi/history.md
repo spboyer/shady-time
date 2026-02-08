@@ -15,3 +15,4 @@
 📌 Team update (2026-02-08): Phase 1 test conventions established — test file locations, router wrapping, semantic assertions, default exports required — decided by Keaton
 📌 Team update (2026-02-08): Inline SVG social icons in Footer, no icon library — decided by McManus
 📌 Team update (2026-02-08): All work must use feature branches + PRs, no direct commits to main — decided by Shayne Boyer
+📌 Team update (2026-02-08): Each phase requires all tests passing and all PRs merged before advancing — decided by Shayne Boyer
