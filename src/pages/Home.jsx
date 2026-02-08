@@ -14,10 +14,10 @@ const quickNav = [
 
 export default function Home() {
   return (
-    <div className="space-y-20">
+    <div className="space-y-12 sm:space-y-20">
       {/* Hero */}
-      <section className="text-center py-16 sm:py-24">
-        <h1 className="text-5xl sm:text-6xl font-bold text-black tracking-tight">
+      <section className="text-center py-12 sm:py-24">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-black tracking-tight">
           Shady Time
         </h1>
         <p className="mt-4 text-lg sm:text-xl text-medium-grey max-w-xl mx-auto">
@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* Featured episode */}
       <section>
-        <h2 className="text-2xl font-bold text-black mb-6">Latest Episode</h2>
+        <h2 className="text-xl sm:text-2xl font-bold text-black mb-6">Latest Episode</h2>
         <div className="max-w-md">
           <EpisodeCard episode={latestEpisode} />
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
 
       {/* About */}
       <section>
-        <h2 className="text-2xl font-bold text-black mb-4">About the Podcast</h2>
+        <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">About the Podcast</h2>
         <p className="text-medium-grey max-w-2xl leading-relaxed">
           Shady Time is a podcast about the people and ideas shaping technology.
           Each episode is a conversation with builders, designers, and thinkers
@@ -51,7 +51,7 @@ export default function Home() {
 
       {/* Quick nav */}
       <section>
-        <h2 className="text-2xl font-bold text-black mb-6">Explore</h2>
+        <h2 className="text-xl sm:text-2xl font-bold text-black mb-6">Explore</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {quickNav.map(({ to, label, desc }) => (
             <Link

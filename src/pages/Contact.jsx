@@ -11,12 +11,12 @@ const podcastSocial = {
 export default function Contact() {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-black mb-8">Get in Touch</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold text-black mb-8">Get in Touch</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Social links */}
         <section>
-          <h2 className="text-xl font-bold text-black mb-4">Follow Us</h2>
+          <h2 className="text-lg sm:text-xl font-bold text-black mb-4">Follow Us</h2>
           <p className="text-medium-grey mb-6">
             Stay up to date with new episodes, behind-the-scenes content, and community discussions.
           </p>
@@ -25,7 +25,7 @@ export default function Contact() {
 
         {/* Contact form */}
         <section>
-          <h2 className="text-xl font-bold text-black mb-4">Send a Message</h2>
+          <h2 className="text-lg sm:text-xl font-bold text-black mb-4">Send a Message</h2>
           <form
             action="mailto:hello@shadytime.com"
             method="POST"
@@ -41,7 +41,7 @@ export default function Contact() {
                 id="name"
                 name="name"
                 required
-                className="w-full border border-soft-grey rounded-lg px-4 py-2.5 text-black focus:outline-none focus:ring-2 focus:ring-orange focus:border-transparent"
+                className="w-full border border-soft-grey rounded-lg px-4 py-2.5 min-h-[44px] text-black focus:outline-none focus:ring-2 focus:ring-orange focus:border-transparent"
               />
             </div>
             <div>
@@ -53,7 +53,7 @@ export default function Contact() {
                 id="email"
                 name="email"
                 required
-                className="w-full border border-soft-grey rounded-lg px-4 py-2.5 text-black focus:outline-none focus:ring-2 focus:ring-orange focus:border-transparent"
+                className="w-full border border-soft-grey rounded-lg px-4 py-2.5 min-h-[44px] text-black focus:outline-none focus:ring-2 focus:ring-orange focus:border-transparent"
               />
             </div>
             <div>
@@ -70,7 +70,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="bg-orange text-white font-semibold px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
+              className="bg-orange text-white font-semibold px-6 py-2.5 min-h-[44px] rounded-lg hover:opacity-90 transition-opacity"
             >
               Send Message
             </button>
