@@ -18,3 +18,5 @@
 📌 Team update (2026-02-08): Inline SVG social icons in Footer, no icon library — decided by McManus
 📌 Team update (2026-02-08): All work must use feature branches + PRs, no direct commits to main — decided by Shayne Boyer
 📌 Team update (2026-02-08): Each phase requires all tests passing and all PRs merged before advancing — decided by Shayne Boyer
+
+- **2026-02-08 — Issues #20, #21, #23 complete (Phase 4).** Created `staticwebapp.config.json` with navigation fallback to `/index.html` excluding `/images/*.{png,jpg,gif,svg}` and `/assets/*` for Azure SWA SPA routing. Verified existing placeholder SVGs (5 episodes at 640×360, 4 guests at 400×400) are reasonable and match all seed data entries — no changes needed. Created `README.md` with tech stack, setup/build/test instructions, project structure, and deployment info. PR #28.
