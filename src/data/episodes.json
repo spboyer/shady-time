@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ep-001",
+    "title": "Getting Started with Cloud Architecture: A Deep Dive into Modern Infrastructure and Deployment Strategies",
+    "slug": "getting-started-cloud-architecture",
+    "episodeNumber": 1,
+    "description": "We explore the fundamentals of cloud architecture with our first guest, covering everything from containers to serverless.",
+    "showNotes": "In this episode, we discuss cloud-native design patterns, container orchestration, and the trade-offs between different deployment models. Topics include Docker, Kubernetes, and serverless functions.",
+    "publishedDate": "2026-01-15",
+    "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "/images/episodes/ep-001.svg",
+    "guestIds": ["guest-001"],
+    "duration": "45:32"
+  },
+  {
+    "id": "ep-002",
+    "title": "Design Systems That Scale",
+    "slug": "design-systems-that-scale",
+    "episodeNumber": 2,
+    "description": "How to build and maintain a design system that grows with your team and product.",
+    "showNotes": "We cover component libraries, design tokens, accessibility standards, and how to get buy-in from engineering and design teams alike.",
+    "publishedDate": "2026-01-22",
+    "youtubeUrl": "https://www.youtube.com/embed/9bZkp7q19f0",
+    "thumbnail": "/images/episodes/ep-002.svg",
+    "guestIds": ["guest-002", "guest-003"],
+    "duration": "38:15"
+  },
+  {
+    "id": "ep-003",
+    "title": "The Art of Developer Experience",
+    "slug": "art-of-developer-experience",
+    "episodeNumber": 3,
+    "description": "What makes a great developer experience? We break down tooling, documentation, and API design.",
+    "showNotes": "Topics include CLI design, SDK ergonomics, documentation-driven development, and measuring developer satisfaction. We also touch on open-source community building.",
+    "publishedDate": "2026-02-05",
+    "youtubeUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
+    "thumbnail": "/images/episodes/ep-003.svg",
+    "guestIds": ["guest-004"],
+    "duration": "1:02:10"
+  },
+  {
+    "id": "ep-004",
+    "title": "Solo Episode: Lessons from a Year of Podcasting",
+    "slug": "lessons-year-of-podcasting",
+    "episodeNumber": 4,
+    "description": "A solo reflection on what we have learned after a year of conversations with incredible guests.",
+    "showNotes": "Shayne reflects on the top takeaways from the first year, listener feedback, and what is coming next for the show.",
+    "publishedDate": "2026-02-12",
+    "youtubeUrl": "https://www.youtube.com/embed/kJQP7kiw5Fk",
+    "thumbnail": "/images/episodes/ep-004.svg",
+    "guestIds": [],
+    "duration": "22:48"
+  },
+  {
+    "id": "ep-005",
+    "title": "Open Source Sustainability",
+    "slug": "open-source-sustainability",
+    "episodeNumber": 5,
+    "description": "How do open-source maintainers keep projects alive? We talk funding, burnout, and community.",
+    "showNotes": "A frank conversation about the economics of open source, sponsorship models, and how companies can better support the projects they depend on.",
+    "publishedDate": "2026-02-19",
+    "youtubeUrl": "https://www.youtube.com/embed/jNQXAC9IVRw",
+    "thumbnail": "/images/episodes/ep-005.svg",
+    "guestIds": ["guest-001", "guest-002"],
+    "duration": "51:07"
+  }
+]
