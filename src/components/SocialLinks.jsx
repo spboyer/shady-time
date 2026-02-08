@@ -19,7 +19,7 @@ export default function SocialLinks({ social }) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={platform.charAt(0).toUpperCase() + platform.slice(1)}
-            className="text-medium-grey hover:text-orange transition-colors"
+            className="flex items-center justify-center w-[44px] h-[44px] text-medium-grey hover:text-orange transition-colors"
           >
             {icon}
           </a>

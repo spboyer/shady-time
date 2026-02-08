@@ -10,11 +10,11 @@ export default function EpisodeDetail() {
   if (!episode) {
     return (
       <div className="text-center py-20">
-        <h1 className="text-3xl font-bold text-black">Episode Not Found</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-black">Episode Not Found</h1>
         <p className="mt-4 text-medium-grey">
           We couldn't find that episode.
         </p>
-        <Link to="/episodes" className="inline-block mt-6 text-orange hover:underline">
+        <Link to="/episodes" className="inline-flex items-center min-h-[44px] text-orange hover:underline text-sm">
           ← Back to Episodes
         </Link>
       </div>
@@ -27,7 +27,7 @@ export default function EpisodeDetail() {
 
   return (
     <div>
-      <Link to="/episodes" className="text-orange hover:underline text-sm">
+      <Link to="/episodes" className="inline-flex items-center min-h-[44px] text-orange hover:underline text-sm">
         ← Back to Episodes
       </Link>
 
@@ -52,13 +52,13 @@ export default function EpisodeDetail() {
         <YouTubeEmbed url={episode.youtubeUrl} title={episode.title} />
 
         <section>
-          <h2 className="text-xl font-bold text-black mb-3">Show Notes</h2>
+          <h2 className="text-lg sm:text-xl font-bold text-black mb-3">Show Notes</h2>
           <p className="text-medium-grey leading-relaxed">{episode.showNotes}</p>
         </section>
 
         {episodeGuests.length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-black mb-3">Guests</h2>
+            <h2 className="text-lg sm:text-xl font-bold text-black mb-3">Guests</h2>
             <ul className="space-y-2">
               {episodeGuests.map((guest) => (
                 <li key={guest.id}>

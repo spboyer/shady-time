@@ -10,11 +10,11 @@ export default function GuestDetail() {
   if (!guest) {
     return (
       <div className="text-center py-20">
-        <h1 className="text-3xl font-bold text-black">Guest Not Found</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-black">Guest Not Found</h1>
         <p className="mt-4 text-medium-grey">
           We couldn't find that guest.
         </p>
-        <Link to="/guests" className="inline-block mt-6 text-orange hover:underline">
+        <Link to="/guests" className="inline-flex items-center min-h-[44px] text-orange hover:underline text-sm">
           ← Back to Guests
         </Link>
       </div>
@@ -27,7 +27,7 @@ export default function GuestDetail() {
 
   return (
     <div>
-      <Link to="/guests" className="text-orange hover:underline text-sm">
+      <Link to="/guests" className="inline-flex items-center min-h-[44px] text-orange hover:underline text-sm">
         ← Back to Guests
       </Link>
 
@@ -58,14 +58,14 @@ export default function GuestDetail() {
 
         {guest.bio && (
           <section>
-            <h2 className="text-xl font-bold text-black mb-3">About</h2>
+            <h2 className="text-lg sm:text-xl font-bold text-black mb-3">About</h2>
             <p className="text-medium-grey leading-relaxed">{guest.bio}</p>
           </section>
         )}
 
         {guestEpisodes.length > 0 && (
           <section>
-            <h2 className="text-xl font-bold text-black mb-3">
+            <h2 className="text-lg sm:text-xl font-bold text-black mb-3">
               Episodes featuring {guest.name}
             </h2>
             <ul className="space-y-2">

@@ -38,7 +38,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             type="button"
-            className="md:hidden p-2 text-[#6B7280] hover:text-[#1A1A1A]"
+            className="md:hidden p-2 min-h-[44px] min-w-[44px] text-[#6B7280] hover:text-[#1A1A1A]"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-expanded={menuOpen}
             aria-label="Toggle navigation menu"
@@ -64,7 +64,7 @@ export default function Header() {
                 to={to}
                 onClick={() => setMenuOpen(false)}
                 className={({ isActive }) =>
-                  `block py-2 ${
+                  `block py-3 min-h-[44px] ${
                     isActive
                       ? 'text-[#E86C25] font-medium'
                       : 'text-[#6B7280] hover:text-[#E86C25] transition-colors'
