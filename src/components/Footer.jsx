@@ -58,7 +58,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#6B7280] hover:text-[#E86C25] transition-colors"
+                className="flex items-center justify-center min-h-[44px] min-w-[44px] text-[#6B7280] hover:text-[#E86C25] transition-colors"
                 aria-label={label}
               >
                 {icon}

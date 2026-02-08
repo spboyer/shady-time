@@ -10,7 +10,7 @@ export default function EpisodeDetail() {
   if (!episode) {
     return (
       <div className="text-center py-20">
-        <h1 className="text-3xl font-bold text-black">Episode Not Found</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-black">Episode Not Found</h1>
         <p className="mt-4 text-medium-grey">
           We couldn't find that episode.
         </p>
@@ -27,13 +27,13 @@ export default function EpisodeDetail() {
 
   return (
     <div>
-      <Link to="/episodes" className="text-orange hover:underline text-sm">
+      <Link to="/episodes" className="inline-flex items-center min-h-[44px] text-orange hover:underline text-sm">
         ← Back to Episodes
       </Link>
 
       <div className="mt-6 space-y-8">
         <header>
-          <div className="flex items-center gap-3 mb-2">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-2">
             <span className="bg-orange text-white text-xs font-semibold px-2 py-1 rounded">
               Episode {episode.episodeNumber}
             </span>

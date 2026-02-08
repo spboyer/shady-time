@@ -8,7 +8,7 @@ const sortedEpisodes = [...episodes].sort(
 export default function Episodes() {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-black mb-8">Episodes</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold text-black mb-8">Episodes</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {sortedEpisodes.map((episode) => (
           <EpisodeCard key={episode.id} episode={episode} />

@@ -10,7 +10,7 @@ export default function GuestDetail() {
   if (!guest) {
     return (
       <div className="text-center py-20">
-        <h1 className="text-3xl font-bold text-black">Guest Not Found</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-black">Guest Not Found</h1>
         <p className="mt-4 text-medium-grey">
           We couldn't find that guest.
         </p>
@@ -27,7 +27,7 @@ export default function GuestDetail() {
 
   return (
     <div>
-      <Link to="/guests" className="text-orange hover:underline text-sm">
+      <Link to="/guests" className="inline-flex items-center min-h-[44px] text-orange hover:underline text-sm">
         ← Back to Guests
       </Link>
 
