@@ -1,0 +1,62 @@
+[
+  {
+    "id": "guest-001",
+    "name": "Alex Rivera",
+    "slug": "alex-rivera",
+    "title": "Principal Cloud Architect at Contoso",
+    "bio": "Alex has spent over a decade designing distributed systems at scale. A frequent conference speaker and open-source contributor, they specialize in making complex infrastructure accessible to small teams.",
+    "photo": "/images/guests/guest-001.svg",
+    "social": {
+      "twitter": "https://twitter.com/alexrivera",
+      "instagram": "",
+      "linkedin": "https://linkedin.com/in/alexrivera",
+      "youtube": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "id": "guest-002",
+    "name": "Priya Sharma",
+    "slug": "priya-sharma",
+    "title": "Head of Design Systems at Northwind",
+    "bio": "Priya leads a team of designers and engineers building component libraries used by thousands of developers. She is passionate about accessibility and believes great design systems are invisible.",
+    "photo": "/images/guests/guest-002.svg",
+    "social": {
+      "twitter": "https://twitter.com/priyasharma",
+      "instagram": "https://instagram.com/priyabuilds",
+      "linkedin": "https://linkedin.com/in/priyasharma",
+      "youtube": "https://youtube.com/@priyasharma",
+      "tiktok": "https://tiktok.com/@priyabuilds"
+    }
+  },
+  {
+    "id": "guest-003",
+    "name": "Jordan Kim",
+    "slug": "jordan-kim",
+    "title": "Senior UX Engineer",
+    "bio": "Jordan bridges the gap between design and engineering, focusing on interaction patterns and motion design in web applications.",
+    "photo": "/images/guests/guest-003.svg",
+    "social": {
+      "twitter": "https://twitter.com/jordankim",
+      "instagram": "",
+      "linkedin": "https://linkedin.com/in/jordankim",
+      "youtube": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "id": "guest-004",
+    "name": "Sam Okafor",
+    "slug": "sam-okafor",
+    "title": "Developer Advocate",
+    "bio": "Sam helps developers build better tools. With a background in both frontend and backend engineering, they focus on CLI design, SDK ergonomics, and documentation.",
+    "photo": "/images/guests/guest-004.svg",
+    "social": {
+      "twitter": "https://twitter.com/samokafor",
+      "instagram": "https://instagram.com/samokafor",
+      "linkedin": "https://linkedin.com/in/samokafor",
+      "youtube": "https://youtube.com/@samokafor",
+      "tiktok": ""
+    }
+  }
+]

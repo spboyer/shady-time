@@ -1,0 +1,22 @@
+{
+  "universe_usage_history": [
+    {
+      "assignment_id": "2026-02-08-shady-time",
+      "universe": "The Usual Suspects",
+      "timestamp": "2026-02-08T22:24:53Z"
+    }
+  ],
+  "assignment_cast_snapshots": {
+    "2026-02-08-shady-time": {
+      "universe": "The Usual Suspects",
+      "agent_map": {
+        "fenster": "Fenster",
+        "mcmanus": "McManus",
+        "hockney": "Hockney",
+        "keaton": "Keaton",
+        "kobayashi": "Kobayashi"
+      },
+      "created_at": "2026-02-08T22:24:53Z"
+    }
+  }
+}
