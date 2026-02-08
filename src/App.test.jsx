@@ -10,6 +10,6 @@ describe('App', () => {
         <App />
       </MemoryRouter>,
     );
-    expect(screen.getByText('Home')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /shady time/i })).toBeInTheDocument();
   });
 });
