@@ -50,7 +50,19 @@ Tailwind CSS v4 is installed (latest). Key differences from v3:
 Inline SVG paths used for social icons (Twitter/X, Instagram, YouTube, LinkedIn, TikTok) in the Footer. No icon library dependency (react-icons, lucide-react, etc.).
 **Why:** Five small `<svg>` elements add negligible weight versus a library that ships hundreds of unused icons. Revisit if icon needs expand beyond the footer.
 
-### 2026-02-08: User directive — proper git workflow
+### 2026-02-08: Git Workflow and Branch Strategy (consolidated)
+**By:** Shayne Boyer, Hockney
+**What:**
+1. All work uses feature branches (`squad/<feature-name>`) — no direct commits to main.
+2. PRs opened against main; reference issues with `Closes #N` syntax for auto-close on merge.
+3. Each issue gets a comment linking to its PR for traceability.
+4. Remote `origin` is `git@github.com:spboyer/shady-time.git`.
+5. `.gitignore` excludes: `node_modules/`, `dist/`, `.env*`, `.ai-team-templates/`, `.github/agents/`.
+6. `.ai-team/` files (team state, decisions, history, logs) ARE committed to the repo.
+**Why:** Shayne directed proper git workflow. Feature branches + PRs enable code review before merge. Issue comments create an audit trail. `.ai-team/` in the repo keeps team state versioned alongside code.
+
+### 2026-02-08: User directive — phase gating on tests + PR merge
 **By:** Shayne Boyer (via Copilot)
-**What:** All work must follow proper git workflow: create feature branches, open PRs against main, comment on related GitHub issues, and close issues when PRs merge. No more working directly on main.
-**Why:** User request — captured for team memory.
+**What:** Each phase must have all tests passing and all PRs merged before moving to the next phase. No skipping ahead.
+**Why:** User request — captured for team memory
+
