@@ -30,3 +30,8 @@ yarn-error.log*
 
 # GitHub agents config (managed separately)
 .github/agents/
+
+# Playwright
+test-results/
+playwright-report/
+e2e/screenshots/
