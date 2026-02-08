@@ -9,7 +9,7 @@ A podcast website built with Scandinavian/Danish minimalist design. Features epi
 | [Vite](https://vite.dev) | 7.x | Build tool and dev server |
 | [React](https://react.dev) | 19.x | UI framework |
 | [Tailwind CSS](https://tailwindcss.com) | 4.x | Utility-first CSS |
-| [React Router](https://reactrouter.com) | 6.x | Client-side routing |
+| [React Router](https://reactrouter.com) | 7.x | Client-side routing |
 | [Vitest](https://vitest.dev) | 4.x | Test runner |
 | [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static) | — | Hosting and deployment |
 
